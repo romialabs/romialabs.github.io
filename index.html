@@ -4,31 +4,100 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Romia Labs</title>
-<meta name="description" content="Romia Labs builds simple, private apps for families and athletes.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%236c4cf1'/%3E%3Cpath d='M10 23V9h7a4.5 4.5 0 0 1 0 9h-7m6 0 5 5' stroke='%23fff' stroke-width='2.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<meta name="description" content="Romia Labs is the experimental studio of Romia LLC: apps, merch and cool things for the community.">
+<meta name="theme-color" content="#070a1a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' shape-rendering='crispEdges'%3E%3Crect width='16' height='16' fill='%23070a1a'/%3E%3Cpath fill='%23ff6b35' d='M7 2h2v1h1v5H6V3h1z'/%3E%3Cpath fill='%23eef1ff' d='M6 8h4v3H6z'/%3E%3Cpath fill='%235ee6ff' d='M7 4h2v2H7z'/%3E%3Cpath fill='%23ffd166' d='M7 11h2v2H7z'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 <header class="wrap">
-  <a class="brand" href="/"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="var(--accent)"/><path d="M10 23V9h7a4.5 4.5 0 0 1 0 9h-7m6 0 5 5" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Romia Labs</a>
-  <nav><a href="#apps">Apps</a><a href="#contact">Contact</a></nav>
+  <a class="brand" href="/" aria-label="Romia Labs home">
+    <svg viewBox="0 0 16 16" shape-rendering="crispEdges" aria-hidden="true"><rect width="16" height="16" rx="3" fill="#11173a"/><path fill="#ff6b35" d="M7 2h2v1h1v5H6V3h1z"/><path fill="#eef1ff" d="M6 8h4v3H6z"/><path fill="#5ee6ff" d="M7 4h2v2H7z"/><path fill="#ffd166" d="M7 11h2v2H7z"/><path fill="#ff6b35" d="M5 9h1v2H5zM10 9h1v2h-1z"/></svg>
+    <span>ROMIA LABS</span>
+  </a>
+  <nav><a href="#experiments">Experiments</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
 </header>
+
 <main class="wrap">
-  <h1>Small apps that save you time.</h1>
-  <p class="lead">Romia Labs builds simple, private iPhone apps for families and athletes. Everything runs on your device, with no accounts and no tracking.</p>
+  <section class="hero">
+    <div>
+      <span class="tag">● T-MINUS: ALWAYS</span>
+      <h1>We build small things <em>for fun</em> and launch them anyway.</h1>
+      <p class="lead">Romia Labs is the experimental side of Romia LLC. Apps, merch, tools and odd little projects, built with care and shipped to see what sticks.</p>
+      <div class="cta"><a class="btn primary" href="#experiments">See the experiments</a><a class="btn" href="#contact">Say hello</a></div>
+    </div>
+    <svg class="scene" viewBox="0 0 64 64" shape-rendering="crispEdges" role="img" aria-label="Pixel rocket lifting off past a planet">
+      <circle cx="50" cy="50" r="12" fill="#1b2463"/><path fill="#2b3685" d="M42 44h4v2h-4zM50 52h6v2h-6zM46 56h3v2h-3z"/>
+      <path fill="#ffd166" d="M10 8h1v1h-1zM56 12h1v1h-1zM6 40h1v1H6zM24 4h1v1h-1z"/><path fill="#5ee6ff" d="M44 6h1v1h-1zM14 30h1v1h-1z"/>
+      <g class="rocket">
+        <path fill="#eef1ff" d="M28 14h8v2h2v18H26V16h2z"/><path fill="#ff6b35" d="M30 10h4v2h2v2h-8v-2h2z"/>
+        <path fill="#5ee6ff" d="M30 20h4v4h-4z"/><path fill="#11173a" d="M31 21h2v2h-2z"/>
+        <path fill="#ff6b35" d="M22 28h4v8h-4zM38 28h4v8h-4z"/><path fill="#c9cfe8" d="M28 34h8v2h-8z"/>
+        <path fill="#ffd166" d="M29 36h6v3h-6z"/><path fill="#ff6b35" d="M30 39h4v3h-4z"/><path fill="#ff9f1c" d="M31 42h2v3h-2z"/>
+      </g>
+    </svg>
+  </section>
 
-  <h2 id="apps">Our apps</h2>
-  <div class="apps">
-    <a class="app" href="/unmomento/">
-      <svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#ff5a1f"/><path d="M12 10v12l10-6z" fill="#fff"/></svg>
-      <div><strong>Un Momento</strong><br><span>Every play from the game, cut and saved to Photos in minutes.</span></div>
-    </a>
-    <div class="app soon"><div class="icon ph"></div><div><strong>More coming</strong><br><span>New apps are in the works.</span></div></div>
-  </div>
+  <section id="experiments">
+    <p class="eyebrow">// MISSION MANIFEST</p>
+    <h2>Experiments</h2>
+    <div class="grid">
+      <a class="card" href="/unmomento/">
+        <span class="status s-live">LIVE</span>
+        <svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#ff5a1f"/><path d="M12 10v12l10-6z" fill="#fff"/></svg>
+        <h3>Un Momento</h3>
+        <p>An iPhone app that turns a full game video into clips of every play. Built for sideline parents.</p>
+      </a>
+      <div class="card">
+        <span class="status s-dev">IN DEV</span>
+        <svg class="icon" viewBox="0 0 16 16" shape-rendering="crispEdges" aria-hidden="true"><rect width="16" height="16" rx="3" fill="#1d1a0d"/><path fill="#ffd166" d="M4 4h2v1h4V4h2l2 2-2 2h-1v5H5V8H4L2 6z"/><path fill="#11173a" d="M7 7h2v2H7z"/></svg>
+        <h3>Lab Supply Co.</h3>
+        <p>Merch for the crew. Shirts, stickers and patches with a space-age, pixel-art twist.</p>
+      </div>
+      <div class="card">
+        <span class="status s-cls">CLASSIFIED</span>
+        <svg class="icon" viewBox="0 0 16 16" shape-rendering="crispEdges" aria-hidden="true"><rect width="16" height="16" rx="3" fill="#2a1438"/><path fill="#d9a6ff" d="M6 3h4v1h1v3h-1v1H9v1H7V7h1V6h1V4H7v1H5V4h1zM7 11h2v2H7z"/></svg>
+        <h3>Project <span class="redacted">XXXXXX</span></h3>
+        <p>Something new is on the launch pad. Details unlock when it clears the tower.</p>
+      </div>
+    </div>
+  </section>
 
-  <h2 id="contact">Contact</h2>
-  <p>Questions or partnerships: <a href="mailto:SUPPORT_EMAIL">SUPPORT_EMAIL</a></p>
+  <section id="about">
+    <p class="eyebrow">// FLIGHT PLAN</p>
+    <h2>What the lab does</h2>
+    <div class="grid pillars">
+      <div class="card"><span class="num">01</span><h3>Digital</h3><p>Apps and tools that solve one real problem well, private by default.</p></div>
+      <div class="card"><span class="num">02</span><h3>Physical</h3><p>Merch and objects we would want on our own desk, shelf or back.</p></div>
+      <div class="card"><span class="num">03</span><h3>Community</h3><p>Free things we build and share because they are cool and someone should.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <p class="eyebrow">// MISSION LOG</p>
+    <h2>Recent transmissions</h2>
+    <ul class="log">
+      <li><b>2026 · LAUNCH PAD</b>Romia Labs opens its doors. First signal sent.</li>
+      <li><b>2026 · UN MOMENTO</b>Our first app enters final testing on real game footage.</li>
+      <li><b>NEXT · ???</b>The next experiment is warming up on the pad.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <p class="eyebrow">// OPEN CHANNEL</p>
+      <h2>Come say hello</h2>
+      <p>Ideas, collabs or just want to talk rockets? Send a transmission.</p>
+      <a class="btn primary" href="mailto:hello@romialabs.dev">hello@romialabs.dev</a>
+    </div>
+  </section>
 </main>
-<footer class="wrap">© 2026 Romia LLC · <a href="/unmomento/privacy/">Un Momento Privacy</a> · <a href="/unmomento/support/">Un Momento Support</a></footer>
+
+<footer class="wrap">
+  <span>© 2026 Romia LLC. Romia Labs is a project of Romia LLC.</span>
+  <span><a href="/unmomento/privacy/">Un Momento Privacy</a> · <a href="/unmomento/support/">Support</a></span>
+</footer>
 </body>
 </html>
